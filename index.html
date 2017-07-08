@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Bootstrap 101 Template</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    
+     <header >
+                      <nav class="navbar navbar-default" id="header">
+               
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"   aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                      <a class="navbar-brand white-text" href="#"><img src ="https://sp.yimg.com/ib/th?id=OIP.PrLRbtYaFGfm9Z924NkrgAEsEs&pid=15.1&w=104&h=103&p=0" width="34px" height="34px" class="align"> </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                              
+                                  <input type="text" class="form-control"   style= "width:300px"  >
+                                   </div>
+                                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                              </form>
+                         <ul class="nav navbar-nav navbar-right">
+                                                      
+                                 <li class="arsh"><a class="white-text" href="https://www.facebook.com/shubham.bhagwal">
+                                                                <img class="media-object" src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.27.160.160/p160x160/18920344_1917323578545736_1516558155869724320_n.jpg?oh=388a5dfd7fa6aa3368ac9d655d97642e&oe=59D3DBBD&__gda__=1511044460_7a8b81654981999e01eeb87767e9fb98 " width="30px" height="30px"  style="float: left"; ><span >Shubham</span></a></li>
+                                  <li><a class="white-text" href="#"> <span class="glyphicon glyphicon-home"  aria-hidden="true"></span></a></li>
+                                  <li><a class="white-text" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"> <span class="badge" id="text">5</span></span></a></li>
+                                  <li><a  class="white-text" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> <span class="badge" id="text">3</span></span></a></li>
+                                  <li><a  class="white-text" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" id="text"></span></span></a></li>
+                                  <li><a  class="white-text" href="#"> <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+                                  <li><a class=" white-text" href="#"></a></li>
+                                  <li class="dropdown">
+                                     <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+                                     <ul class="dropdown-menu">
+                                          <li><a href="#">Creat Pages</a></li>
+                                          <li><a href="#">New Pages</a></li>
+                                          <li role="separator" class="divider"></li>
+                                          <li><a href="#">Activity Log</a></li>
+                                          <li><a href="#">Setting</a></li>
+                                          <li><a href="#">Logout</a></li>
+                                      </ul>
+                                  </li>
+                            </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+     </header>
+       <div  id="wrapper">
+      <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3"> 
+            <div id="sidebar">
+              <div id="menu">
+                <ul class="nav nav-pills nav-stacked ">
+                  <p>Shubham <div class="list-heading"></div> </p>       
+                   <li role="presentation"><a href="#"><img src ="https://sp.yimg.com/ib/th?id=OIP.RYQOMgE7K_mAruNf1DTZ7wD6D6&pid=15.1&w=122&h=121&p=0"  width="20px" height="20px" class="img">News feed  </a></li>
+                   <li role="presentation"><a href="#"><span class="glyphicon glyphicon-envelope" "badge" aria-hidden="true" id="align" class="img">Messenger 10</span></a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                   <p> Shortcuts <div class="list-heading"></div> </p>
+                       <li role="presentation" ><a class="black-text" href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.rOXTBkETso_XXGKUuRsDlgEsEs&pid=15.1&w=108&h=107&p=0" width="20px" height="20px" class="img">Events<span class="badge" > 5</span></a></li>   
+                       <li role="presentation" ><a class="black-text" href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.x_wXrrLYaOVjVIwBmAaDjAEsEs&pid=15.1&w=103&h=102&p=0"  width="20px" height="20px" class="img"> Groups<span class="badge" > 8 </span></a></li>
+                       <li role="presentation" ><a class="black-text" href="#"><span class="glyphicon glyphicon-"><img src="https://sp.yimg.com/ib/th?id=OIP.602QDC46B6aNhugY4GWZjAEsEs&pid=15.1&w=103&h=102&p=0"  width="20px" height="20px" class="img">Pages<span class="badge"> 6 </span></span></a></li> 
+                       <li role="presentation" ><a class="black-text" href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.juvbQq83RyNmXR0Ga0FfJgEbEs&pid=15.1&w=99&h=105&p=0" width="20px" height="20px" class="img">On this day</a></li>
+                       <li role="presentation" ><a class="black-text" href="#"><span class="glyphicon glyphicon-list-alt">Friends lists</span></a></li>
+                       <li role="presentation" ><a class="black-text" href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.7Djg6P5lgemvUTnGt9tXegEsEs&pid=15.1&w=103&h=102&p=0"  width="20px" height="20px" class="img">Pages Feed</a></li>
+                       <li role="presentation" ><a class="black-text" href="#"><img src="https://cdn1.iconfinder.com/data/icons/ecommerce-solid/48/8_buy_ecommerce_sell_shop_shopping_discount-128.png" width="20px" height="20px" class="img">Buy and Sells groups<span class="badge">3</span></a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                  <p> Explore<div class="list-heading"></div></p>
+                      <li role="presentation"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" width="14px" height="14px" class="img">HTML, CSS Group</a></li>
+                      <li role="presentation"><a href="#">AcadView</a></li>
+                      <li role="presentation"><a href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.b7zv_tVMkxxGOg6A8uD67wC0C0&pid=15.1&w=103&h=102&p=0" width="20px" height="20px" class="img" >Bootstrap Fundas</a></li>
+
+                </ul>
+                <ul class ="nav nav-pills">
+                  <p> Create</p>
+                       <li role="presentation"><a href="#">Advert</a></li>
+                       <li role="presentation"><a href="#">Page</a></li>
+                       <li role="presentation"><a href="#">Group</a></li>
+                       <li role="presentation"><a href="#">Events</a></li>
+                </ul>
+        </div>
+      </div>
+    </div>
+        <div class="col-xs-12 col-sm-8 col-md-6">
+          <div id="main">
+            <div class="panel panel-default">
+                    <div class="panel-heading">
+                       <h3 class="panel-title"><img src="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/17499416_368733240186894_2537118761630803625_n.jpg?oh=d6c89b380639a99547b5fd38103c4f5e&oe=59CA669D&__gda__=1511128333_bdbb6b20510a506fc8a832c3f4564b32" width="40px" height="40px"><a href="https://www.facebook.com/ankush.bhagwal">Ankush Bhagwal</a></h3>
+                    </div>
+                          <div class="panel-body">
+                                <div>
+                                      <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/17499416_368733240186894_2537118761630803625_n.jpg?oh=d57d8af242b08529dbef93009570d984&oe=59CB1843" width="660px" height="600px" alt="Responsive image" class="img-responsive">
+                                      <span class="badge"> 200<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="badge"> 34<span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                                      <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                                 </div>
+                          </div>
+                    <div class="panel-footer">
+                          <ul class="media-list">
+                               <li class="media">
+                                    <div class="media-left">
+                                       <a href="#">
+                                        <img class="media-object" src="https://fb-s-a-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/16472997_756457854505410_563256812434872583_n.jpg?oh=9df76e81fad295cb643ae387e147b668&oe=59D43F0C&__gda__=1510840660_ff5889bbc993d611609376d6e87377f8"  width="34px" height"34px"  alt="...">
+                                       </a>
+                                    </div>
+                                    <div class="media-body">
+                                       <p> <span><a href="https://www.facebook.com/prince.sahota.94651">Prince Sahota </a></span> ghaint aa</p>
+                                        <div><small><span class="badge"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                        <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                               </li>
+                    </ul>
+                        <ul class="media-list">
+                            <li class="media">
+                              <div class="media-right">
+                                  <a href="#">
+                                      <img class="media-object" src="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/16298841_609796485895014_1256651860291751696_n.jpg?oh=9199887559e0f17d2337da9a2e77fa11&oe=59C966CD&__gda__=1507661917_7f7521d20095b858557a13057920891e"  width="34px" height"34px" alt="...">
+                                   </a>
+                              </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="https://www.facebook.com/dinesh.anthlay">Mohit Kausal </a></span> Nice Bro</p>
+                                      <div><small><span class="badge"> 2<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                            </li>
+                         </ul>
+                                  <p> <a href="#" >see more</p>
+                                   <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                     </div>
+                  <div class="panel-heading">
+                        <h3 class="panel-title"><img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/18920344_1917323578545736_1516558155869724320_n.jpg?oh=ac330d6d3ad35e11dc34d24f0a5bf4f1&oe=5A0D9009" width="40px" height="40px"><a href="https://www.facebook.com/shubham.bhagwal">Shubham</a></h3>
+                  </div>
+                  <div class="panel-body">
+                  <div><h3>Coding is not difficult,but it needs time for practicing.</h3></div>
+                    <div><span class="badge">89<span class= "glyphicon glyphicon-thumbs-up" aria-hidden="true" >Like</span></span>
+                        <span class="badge">18<span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                         <ul class="media-list">
+                            <li class="media">
+                              <div class="media-left">
+                                  <a href="#">
+                                      <img class="media-object" src="https://fb-s-a-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.100.100/p100x100/19510393_1784204261824117_5281969111007995636_n.jpg?oh=769d8092f0d4b113029777dbdc2de37c&oe=59C31809&__gda__=1510327404_7f634f8c934e9f6ab790e8df19ac7240"  width="34px" height"34px" alt="...">
+                                   </a>
+                              </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="https://www.facebook.com/dinesh.anthlay">Dinesh Anthlay </a></span> nice thinking</p>
+                                      <div><small><span class="badge"> 2<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                            </li>
+                         </ul>
+
+                          <ul class="media-list">
+                            <li class="media">
+                              <div class="media-right">
+                                  <a href="#">
+                                      <img class="media-object" src="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.160.160/p160x160/16299370_1842676359319730_6366039771323896797_n.jpg?oh=8ee79416316fe06032d6074b20d891bb&oe=5A0CE9B4&__gda__=1510263249_4064a70d770d1525e7331d756db705bf"  width="34px" height"34px" alt="...">
+                                   </a>
+                              </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="https://www.facebook.com/dinesh.anthlay">Vicky Aggarwal </a></span> att aa</p>
+                                      <div><small><span class="badge"> 2<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                            </li>
+                         </ul>
+                                   <p> <a href="#" >see more</p>
+                                   <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                   </div>
+                    <div class="panel panel-default">
+                       <div class="panel-heading">
+                              <h3 class="panel-title"><img src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.27.160.160/p160x160/18920344_1917323578545736_1516558155869724320_n.jpg?oh=388a5dfd7fa6aa3368ac9d655d97642e&oe=59D3DBBD&__gda__=1511044460_7a8b81654981999e01eeb87767e9fb98"  width="40px" height="40px"><a href="https://www.facebook.com/abhishek.bhagwal">Shubham</a></h3>
+                       </div>
+                                      <div class="panel-body">
+                                           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner">
+                                              <div class="item active">
+                                                <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18920344_1917323578545736_1516558155869724320_n.jpg?oh=ac330d6d3ad35e11dc34d24f0a5bf4f1&oe=5A0D9009"  width="660px" height="600px" alt="Chicago" class="img-responsive">
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17759676_1890613751218702_1792157383881592919_n.jpg?oh=d1f29618bf05eb5aa5e568e366a3be7a&oe=59CF9313"  width="660px" height="600px" alt="Chicago" class="img-responsive">
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17103248_1868208850123876_8341685133712196739_n.jpg?oh=1e61a378d4490087cabd468765017522&oe=5A0B1927"  width="660px" height="600px" alt="Chicago" class="img-responsive">
+                                              </div>
+                                            </div>
+
+                                            <!-- Left and right controls -->
+                                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                              <span class="glyphicon glyphicon-chevron-left"></span>
+                                              <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                              <span class="glyphicon glyphicon-chevron-right"></span>
+                                              <span class="sr-only">Next</span>
+                                            </a>
+                                          </div>
+                               <div><span class="badge">259<span class= "glyphicon glyphicon-thumbs-up" aria-hidden="true" >Like</span></span>
+                                      <span class="badge">45<span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                                      <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                                  </div>
+                  <div class="panel-footer"></div>
+                         <ul class="media-list">
+                            <li class="media">
+                              <div class="media-left">
+                                  <a href="#">
+                                      <img class="media-object" src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.100.100/p100x100/19510328_445306752500464_8982576495048855334_n.jpg?oh=6a63bcd66f7fed5cd7313ce3e581ca17&oe=59CE36C5&__gda__=1511027440_0abbeca4de9b2e500f3f17e580098e46"  width="34px" height"34px" alt="...">
+                                   </a>
+                              </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="https://www.facebook.com/dinesh.anthlay">Rohit kumar </a></span>vdiya vire</p>
+                                      <div><small><span class="badge"> 2<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                            </li>
+                         </ul>
+                                   <p> <a href="#" >see more</p>
+                                   <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                   </div>
+             </div>  
+
+
+
+
+
+                       <div class="panel panel-default">
+                              <div class="panel-heading">
+                                 <h3 class="panel-title"><img src="https://fb-s-d-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/18835844_812447042252659_20005065228893225_n.jpg?oh=3e4815f892594ec1fb297f86eb21efd6&oe=59CEB455&__gda__=1506672738_83cecdad1af56d85448953642abc22e1"  width="40px" height"40px" ><a href="https://www.facebook.com/manishkumar259"> Manish kumar</a></h3>
+                              </div>
+                <div class="panel-body">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                             <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                          <div> <span class="badge">30<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                              <span class="badge">3<span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                              <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                          </div>
+                </div>
+                <div class="panel-footer">
+                        <ul class="media-list">
+                           <li class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                      <img class="media-object" src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.3.100.100/p100x100/19224994_319149531860846_4392299311231770488_n.jpg?oh=8f3c1a3039af59db57dfbafca5b4393c&oe=59D7702C&__gda__=1507125017_2b5251086bc7edd3185ea6861016f8c3" width="34px" height"34px"  alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                   <p> <span><a href="https://www.facebook.com/profile.php?id=100012974054188">Sahil Singh </a></span> that's right</p>
+                                      <div><small><span class="badge"> 1<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                </div>
+                           </li>
+                       </ul>
+                           <p><a href="#" >see more</p>
+                           <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                </div>
+                </div>
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                       <h3 class="panel-title"><img src="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.100.100/p100x100/10421366_389948127879215_475673622115464122_n.jpg?oh=9696671a779dcddb08d9802091a58fa5&oe=59D9BAC6&__gda__=1506578918_18236137062245967fe14168f1edef4a" width="40px" height="40px"<a href="#">Ankita</a></h3>
+                    </div>
+                <div class="panel-body">
+                      <div>
+                            <img src="http://4.bp.blogspot.com/-na_8O9BFrE4/UcsWpqow9XI/AAAAAAAAAaY/2sF9GPW-q5o/s1600/8049_134950629976968_3962634_n.jpg" class="img-responsive" alt="Responsive image">
+                            <span class="badge"> 300<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                            <span class="badge"> 50 <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                            <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                       </div>
+                </div>
+                <div class="panel-footer">
+                          <ul class="media-list">
+                               <li class="media">
+                                    <div class="media-left">
+                                       <a href="#">
+                                        <img class="media-object" src="https://fb-s-a-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/16472997_756457854505410_563256812434872583_n.jpg?oh=9df76e81fad295cb643ae387e147b668&oe=59D43F0C&__gda__=1510840660_ff5889bbc993d611609376d6e87377f8"  width="34px" height"34px" alt="...">
+                                       </a>
+                                    </div>
+                                    <div class="media-body">
+                                       <p> <span><a href="#">Prince Sahota </a></span> ghaint aa</p>
+                                        <div><small><span class="badge"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                        <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                               </li>
+                           </ul> 
+                            <ul class="media-list">
+                            <li class="media">
+                              <div class="media-right">
+                                  <a href="#">
+                                      <img class=="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.100.100/p100x100/10421366_389948127879215_475673622115464122_n.jpg?oh=9696671a779dcddb08d9802091a58fa5&oe=59D9BAC6&__gda__=1506578918_18236137062245967fe14168f1edef4a.jpg" width="40px" height="40px" alt="...">
+                                   </a>
+                              </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="https://www.facebook.com/dinesh.anthlay">Ankita</a></span> Thnx</p>
+                                      <div><small><span class="badge"> 2<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                            </li>
+                         </ul>
+                           <ul class="media-list">
+                                <li class="media" >
+                                    <div class="media-left">
+                                      <a href="#">
+                                        <img class="media-object" src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.27.160.160/p160x160/18920344_1917323578545736_1516558155869724320_n.jpg?oh=388a5dfd7fa6aa3368ac9d655d97642e&oe=59D3DBBD&__gda__=1511044460_7a8b81654981999e01eeb87767e9fb98"  width="34px" height"34px" alt="...">
+                                      </a>
+                                    </div>
+                                    <div class="media-body">
+                                       <p> <span><a href="#">Shubahm </a></span>att aa</p>
+                                        <div><small><span class="badge"> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                        <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                    </div>
+                                 </li>
+                            </ul>
+                            <ul class="media-list">
+                                <li class="media">
+                                  <div class="media-left">
+                                     <a href="#">
+                                       <img class="media-object" src="https://fb-s-a-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.0.100.100/p100x100/19554908_717187748465959_7001617808455218553_n.jpg?oh=6b429d65bdf4ec2ab66ce630eef77aab&oe=59CC4B89&__gda__=1510735292_2b887b377326b1b9f85331c8f65be175"  width="34px" height"34px" alt="...">
+                                     </a>
+                                  </div>
+                                  <div class="media-body">
+                                     <p> <span><a href="#">Arjun Chauhan </a></span> sohni kuddi</p>
+                                      <div><small><span class="badge"> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                  </div>
+                               </li>
+                             </ul>
+                             <p><a href="#">see more </p>
+                             <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                       </div>
+                 </div>
+                   
+                 <div class="panel panel-default">
+                       <div class="panel-heading">
+                              <h3 class="panel-title"><img src="https://fb-s-c-a.akamaihd.net/h-ak-fbx/v/t1.0-1/p100x100/19642437_105156610123886_2401200056585084047_n.jpg?oh=e41e9bdedf64c3b7e65f14884b49870b&oe=59CC021E&__gda__=1506254990_e0d7beb758fff0368078cf97f1a537bd" width="40px" height="40px"<a href="https://www.facebook.com/abhishek.bhagwal">Abhishek</a></h3>
+                       </div>
+                            <div class="panel-body">
+                              <div class='embed-container'><iframe src='https://www.youtube.com/embed/Rb2IF8T3_WQ'  width="500" height="500px" frameborder='0' allowfullscreen></iframe></div>
+
+                                        <div> <span class="badge">146<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                       <span class="badge">27<span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                                        <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                                    </div>
+                            </div>
+                            <div class="panel-footer">
+                                        <ul class="media-list">
+                                            <li class="media">
+                                                  <div class="media-left">
+                                                      <a href="#">
+                                                        <img class="media-object" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/17800429_266939427050452_2244753954588504141_n.jpg?oh=124dbc4bba769d2a62dc80a075f67f54&oe=5A01C289"  width="34px" height"34px" alt="...">
+                                                      </a>
+                                                  </div>
+                                                  <div class="media-body">
+                                                      <p> <span><a href="#">Rohit Gondwal</a></span> nice video</p>
+                                                      <div><small><span class="badge"> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                                      <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                                  </div>
+                                               </li>
+                                         </ul>
+                                               <p><a href="#" >see more</p>
+                                   <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                            </div>
+               </div>
+
+
+                  <div class="panel panel-default">
+                       <div class="panel-heading">
+                              <h3 class="panel-title"><img src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.27.160.160/p160x160/18920344_1917323578545736_1516558155869724320_n.jpg?oh=388a5dfd7fa6aa3368ac9d655d97642e&oe=59D3DBBD&__gda__=1511044460_7a8b81654981999e01eeb87767e9fb98"  width="40px" height="40px"><a href="https://www.facebook.com/abhishek.bhagwal">Shubham</a></h3>
+                       </div>
+                                     <div class="panel-body">
+                                                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                            <!-- Indicators -->
+                                                            <ol class="carousel-indicators">
+                                                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                                                            </ol>
+
+                                                            <!-- Wrapper for slides -->
+                                                            <div class="carousel-inner">
+                                                              <div class="item active">
+                                                                <img src="https://tse3.mm.bing.net/th?id=OIP.65wLjW4lF3FMR---TXd4QgEsDh&pid=15.1&P=0&w=226&h=170" width="660px" height="600px" alt="Chania" class="img-responsive">
+                                                                <div class="carousel-caption">
+                                                                  <h3>Tajmahal</h3>
+                                                                  <p>memories of love</p>
+                                                                </div>
+                                                              </div>
+
+                                                              <div class="item">
+                                                                <img src="https://tse3.mm.bing.net/th?id=OIP.OEqJdu8ydgN-Il9RfUkSvwEsDh&pid=15.1&P=0&w=221&h=166" width="660px" height="600px" alt="Chicago" class="img-responsive">
+                                                                <div class="carousel-caption">
+                                                                  <h3>Nation Flag</h3>
+                                                                  <p>I Love My INDIA</p>
+                                                                </div>
+                                                              </div>
+
+                                                              <div class="item">
+                                                                <img src="https://tse3.mm.bing.net/th?id=OIP.Ppz6KD4lBCkbYa3o0yR-EgEsDh&pid=15.1&P=0&w=237&h=178" width="660px" height="600px" alt="New York" class="img-responsive">
+                                                                <div class="carousel-caption">
+                                                                  <h3> At The Beach</h3>
+                                                                  <p> nice view for evening</p>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+
+                                                            <!-- Left and right controls -->
+                                                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                              <span class="glyphicon glyphicon-chevron-left"></span>
+                                                              <span class="sr-only">Previous</span>
+                                                            </a>
+                                                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                              <span class="glyphicon glyphicon-chevron-right"></span>
+                                                              <span class="sr-only">Next</span>
+                                                            </a>
+                                                          </div>
+                                                          <span class="badge"> 300<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                                          <span class="badge"> 50 <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></span>
+                                                          <span class="glyphicon glyphicon-share-alt" aria-hidden="true">Share</span>
+                                                                            <div class="panel-footer">
+                                                    <ul class="media-list">
+                                                       <li class="media">
+                                                            <div class="media-left">
+                                                                <a href="#">
+                                                                  <img class="media-object" src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-1/c0.3.100.100/p100x100/19224994_319149531860846_4392299311231770488_n.jpg?oh=8f3c1a3039af59db57dfbafca5b4393c&oe=59D7702C&__gda__=1507125017_2b5251086bc7edd3185ea6861016f8c3" width="34px" height"34px"  alt="...">
+                                                                </a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                               <p> <span><a href="https://www.facebook.com/profile.php?id=100012974054188">Sahil Singh </a></span> nice one</p>
+                                                                  <div><small><span class="badge"> 1<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">Like</span></span>
+                                                                  <span class="glyphicon glyphicon-comment" aria-hidden="true">Comment</span></small></div>
+                                                            </div>
+                                                       </li>
+                                                       </ul>
+
+
+
+
+
+                                                       <p><a href="#" >see more</p>
+                                                       <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+                                            </div>                   
+
+                                     </div>
+                            </div>
+
+
+
+
+
+
+           </div>
+       </div>
+                      <div class="hidden-xs hidden-sm col-md-3"><div id="sidebar">
+                        <div>
+                           <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><img src="https://sp.yimg.com/ib/th?id=OIP.QUegSkw54qoVMmZTjDbiKQEsEs&pid=15.1&w=103&h=102&p=0" width="50px" height="50px"></a></li>
+                                <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><img src="https://sp.yimg.com/ib/th?id=OIP.nBX4q-R8TLd-u9t360zPfgEsEs&pid=15.1&w=120&h=119&p=0"  width="50px" height="50px"></a></li>
+                                <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://tse4.mm.bing.net/th?id=OIP.zAGG6y51v16GHWd6XiSfHwEsEs&pid=15.1&P=0&w=300&h=300" width="50px" height="50px"></a></li>
+                           </ul>
+    <!-- Tab panes -->
+                    <div class="tab-content">
+                           <div role="tabpanel" class="tab-pane active" id="top">
+                                <div class="list-group">
+                                    <a href="https://www.facebook.com/topic/CNN/114446598572632?source=whfrt&position=2&trqid=6438543224452312694" class="list-group-item ">
+                                      <h4 class="list-group-item-heading">CNN</h4>
+                                      <p class="list-group-item-text">President Trump just tweeted A Video of himself beating up CNN</p>
+                                    </a>
+                                </div>
+                                <div class="list-group">
+                                      <a href="https://www.facebook.com/topic/Nitish-Kumar/113301518683198?source=whfrt&position=3&trqid=6438543224452312694" class="list-group-item ">
+                                        <h4 class="list-group-item-heading">Nitish Kumar</h4>
+                                        <p class="list-group-item-text">Nitish kumar's latest bring Mahagathbandhan</p>
+                                      </a>
+                                 </div>
+                                 <div class="list-group">
+                                      <a href="https://www.facebook.com/topic/Air-India/143605098990073?source=whrt&position=6&trqid=6438543864353849427" class="list-group-item ">
+                                        <h4 class="list-group-item-heading">Air India</h4>
+                                        <p class="list-group-item-text"> Faulty AC in Air India Flights leaves Passengers for Gasping Air</p>
+                                       </a>
+                                  </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="politics">
+                                    <div class="list-group">
+                                        <a href="https://www.facebook.com/topic/Virbhadra-Singh/109297362430815?source=whfrt&position=1004&trqid=6438552003495843338" class="list-group-item active">
+                                          <h4 class="list-group-item-heading">Virbharda Singh</h4>
+                                          <p class="list-group-item-text">Delhi High Court refuses the virbahdra singh's Plea ques </p>
+                                        </a>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.facebook.com/topic/US-Department-of-Homeland-Security/103756052996813?source=whfrt&position=1006&trqid=6438552003495843338" class="list-group-item active">
+                                          <h4 class="list-group-item-heading">US Department Of Homeland Secuirty</h4>
+                                          <p class="list-group-item-text">Depat. Of Homeland Sequirty  frees Emiration airline from Laptop Ban</p>
+                                        </a>
+                                   </div>
+                             </div>
+                             <div role="tabpanel" class="tab-pane" id="sports">
+                                  <div class="list-group">
+                                        <a href="https://www.facebook.com/topic/Kyle-Stanley/138530799505102?source=whfrt&position=4002&trqid=6438555052931210271" class="list-group-item active">
+                                          <h4 class="list-group-item-heading">Kyle Stanley</h4>
+                                          <p class="list-group-item-text">Kyle Stanley wins quicken loans in National Playoff</p>
+                                        </a>
+                                  </div>
+                                  <div class="list-group">
+                                        <a href="https://www.facebook.com/topic/Germany-vs-Chile/113901151954074?source=whfrt&position=4001&trqid=6438555052931210271" class="list-group-item active">
+                                          <h4 class="list-group-item-heading">Germany vs Chile</h4>
+                                          <p class="list-group-item-text">Germany revels in  reserved 'Germany' triump</p>
+                                        </a>
+                                   </div>
+                               </div>
+                   </div>
+                    </div>          
+                      </div>
+                      </div>
+                      </div>
+
+  <footer>
+     <ul class="nav nav-tabs pull-right">
+          <li role="presentation "><a href="# ">About Us</a></li>
+          <li role="presentation "><a href="# ">Home</a></li>
+          <li role=" presentation "><a href="# ">Privacy</a></li>
+     </ul>
+</footer>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
